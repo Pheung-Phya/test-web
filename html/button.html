@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .btnClick {
+      background-color: #3498db;
+      border-radius: 5px;
+      padding: 10px 20px;
+      color: white;
+    }
+    .btnClick:hover {
+      background-color: #2980b9;
+      color: white;
+    }
+
+    .card {
+      width: 300px;
+      background-color: beige;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 1px 3px 10px rgb(185, 183, 183);
+    }
+    .card > .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .card > .paragraph {
+      font-size: 14px;
+      color: gray;
+    }
+
+    .profileCard {
+      width: 250px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 1px 3px 10px rgb(185, 183, 183);
+      justify-items: center;
+    }
+    .profile {
+      width: 100px;
+      height: 100px;
+    }
+    .profile > img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .profileCard > h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .profileCard > p {
+      font-size: 14px;
+      color: gray;
+    }
+  </style>
+  <body>
+    <button class="btnClick">Click Me</button>
+    <div class="card">
+      <h2 class="title">Card Title</h2>
+      <p class="paragraph">This is a simple card description.</p>
+    </div>
+
+    <div class="profileCard">
+      <div class="profile">
+        <img src="/image/profile.png" alt="Profile Picture" />
+      </div>
+      <h2>John Doe</h2>
+      <p>Software Engineer</p>
+    </div>
+  </body>
+</html>
